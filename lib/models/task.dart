@@ -7,29 +7,33 @@ import 'model_base.dart';
 @Entity(tableName: 'TaskApps')
 class TaskApp extends ModelBase{
   String? title;
+  String? idFirebase;
   String? creationDate;
   String? updateDate;
   String? description;
-  TaskApp({int? id, bool isNecessarySaveInServer = false, this.title, this.creationDate, this.updateDate, this.description}): super(id: id, isNecessarySaveInServer:isNecessarySaveInServer);
+  TaskApp({int? id, bool isNecessarySaveInServer = false, this.title, this.idFirebase, this.creationDate, this.updateDate, this.description}): super(id: id, isNecessarySaveInServer:isNecessarySaveInServer);
   // GET
   String? getTitle() {
     return title;
   }
-  DateTime? getStart() {
+  DateTime? getCreationDate() {
     return FunctionsClass.dateParse(creationDate);
   }
-  DateTime? getEnd() {
+  DateTime? getUpdateDate() {
     return FunctionsClass.dateParse(updateDate);
   }
   String? getDescription() {
     return description;
+  }
+  String? getIdFirebase(){
+    return idFirebase;
   }
 
 // SET 
   void setTitle(String? title){
     this.title = title;
   }
-  void setStart(DateTime? creationDate){
+  void setCreationDate(DateTime? creationDate){
     this.creationDate = FunctionsClass.formatDate(creationDate);
   }
   void setUpdateDate(DateTime? updateDate){
@@ -38,7 +42,9 @@ class TaskApp extends ModelBase{
   void setDescription(String? description){
     this.description = description;
   }
-  
+  void setIdFirebase(String? idFirebase){
+    this.idFirebase = idFirebase;
+  }
 
 
   /// other methods
@@ -50,6 +56,7 @@ class TaskApp extends ModelBase{
       'title':title,
       'updateDate':updateDate,
       'description': description,
+      'idFirebase': idFirebase,
     };
   }
 

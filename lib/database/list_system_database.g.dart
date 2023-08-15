@@ -85,7 +85,7 @@ class _$ListSystemDatabase extends ListSystemDatabase {
       },
       onCreate: (database, version) async {
         await database.execute(
-            'CREATE TABLE IF NOT EXISTS `TaskApps` (`title` TEXT, `creationDate` TEXT, `updateDate` TEXT, `description` TEXT, `id` INTEGER PRIMARY KEY AUTOINCREMENT, `isNecessarySaveInServer` INTEGER NOT NULL)');
+            'CREATE TABLE IF NOT EXISTS `TaskApps` (`title` TEXT, `idFirebase` TEXT, `creationDate` TEXT, `updateDate` TEXT, `description` TEXT, `id` INTEGER PRIMARY KEY AUTOINCREMENT, `isNecessarySaveInServer` INTEGER NOT NULL, `deleteInServer` INTEGER NOT NULL)');
 
         await callback?.onCreate?.call(database, version);
       },
@@ -109,12 +109,14 @@ class _$TaskAppDao extends TaskAppDao {
             'TaskApps',
             (TaskApp item) => <String, Object?>{
                   'title': item.title,
+                  'idFirebase': item.idFirebase,
                   'creationDate': item.creationDate,
                   'updateDate': item.updateDate,
                   'description': item.description,
                   'id': item.id,
                   'isNecessarySaveInServer':
-                      item.isNecessarySaveInServer ? 1 : 0
+                      item.isNecessarySaveInServer ? 1 : 0,
+                  'deleteInServer': item.deleteInServer ? 1 : 0
                 }),
         _taskAppUpdateAdapter = UpdateAdapter(
             database,
@@ -122,12 +124,14 @@ class _$TaskAppDao extends TaskAppDao {
             ['id'],
             (TaskApp item) => <String, Object?>{
                   'title': item.title,
+                  'idFirebase': item.idFirebase,
                   'creationDate': item.creationDate,
                   'updateDate': item.updateDate,
                   'description': item.description,
                   'id': item.id,
                   'isNecessarySaveInServer':
-                      item.isNecessarySaveInServer ? 1 : 0
+                      item.isNecessarySaveInServer ? 1 : 0,
+                  'deleteInServer': item.deleteInServer ? 1 : 0
                 }),
         _taskAppDeletionAdapter = DeletionAdapter(
             database,
@@ -135,12 +139,14 @@ class _$TaskAppDao extends TaskAppDao {
             ['id'],
             (TaskApp item) => <String, Object?>{
                   'title': item.title,
+                  'idFirebase': item.idFirebase,
                   'creationDate': item.creationDate,
                   'updateDate': item.updateDate,
                   'description': item.description,
                   'id': item.id,
                   'isNecessarySaveInServer':
-                      item.isNecessarySaveInServer ? 1 : 0
+                      item.isNecessarySaveInServer ? 1 : 0,
+                  'deleteInServer': item.deleteInServer ? 1 : 0
                 });
 
   final sqflite.DatabaseExecutor database;
@@ -156,13 +162,45 @@ class _$TaskAppDao extends TaskAppDao {
   final DeletionAdapter<TaskApp> _taskAppDeletionAdapter;
 
   @override
-  Future<List<TaskApp>> fetchAll() async {
-    return _queryAdapter.queryList('SELECT * FROM TaskApps',
+  Future<List<TaskApp?>> fetchAll() async {
+    return _queryAdapter.queryList(
+        'SELECT * FROM TaskApps WHERE deleteInServer = 0',
         mapper: (Map<String, Object?> row) => TaskApp(
             id: row['id'] as int?,
             isNecessarySaveInServer:
                 (row['isNecessarySaveInServer'] as int) != 0,
             title: row['title'] as String?,
+            idFirebase: row['idFirebase'] as String?,
+            creationDate: row['creationDate'] as String?,
+            updateDate: row['updateDate'] as String?,
+            description: row['description'] as String?));
+  }
+
+  @override
+  Future<List<TaskApp?>> allTaskAppToBedeleted() async {
+    return _queryAdapter.queryList(
+        'SELECT * FROM TaskApps WHERE deleteInServer = 1',
+        mapper: (Map<String, Object?> row) => TaskApp(
+            id: row['id'] as int?,
+            isNecessarySaveInServer:
+                (row['isNecessarySaveInServer'] as int) != 0,
+            title: row['title'] as String?,
+            idFirebase: row['idFirebase'] as String?,
+            creationDate: row['creationDate'] as String?,
+            updateDate: row['updateDate'] as String?,
+            description: row['description'] as String?));
+  }
+
+  @override
+  Future<List<TaskApp?>> allTaskAppToBeEdited() async {
+    return _queryAdapter.queryList(
+        'SELECT * FROM TaskApps WHERE isNecessarySaveInServer = 1',
+        mapper: (Map<String, Object?> row) => TaskApp(
+            id: row['id'] as int?,
+            isNecessarySaveInServer:
+                (row['isNecessarySaveInServer'] as int) != 0,
+            title: row['title'] as String?,
+            idFirebase: row['idFirebase'] as String?,
             creationDate: row['creationDate'] as String?,
             updateDate: row['updateDate'] as String?,
             description: row['description'] as String?));
@@ -176,6 +214,7 @@ class _$TaskAppDao extends TaskAppDao {
             isNecessarySaveInServer:
                 (row['isNecessarySaveInServer'] as int) != 0,
             title: row['title'] as String?,
+            idFirebase: row['idFirebase'] as String?,
             creationDate: row['creationDate'] as String?,
             updateDate: row['updateDate'] as String?,
             description: row['description'] as String?),

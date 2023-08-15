@@ -85,7 +85,7 @@ class TranslationDelegate extends LocalizationsDelegate<TranslateController> {
    * load last application language
    * Obs: this method is used to load translations in background and when app receive firebase message
    * @author SGV
-   * @version 1.0 - 20210928 - initial release
+   * @version 1.0 - 20230814 - initial release
    * @return  void
    */
   Future<void> loadLastApplicationLanguage() async {
@@ -101,8 +101,8 @@ class TranslationDelegate extends LocalizationsDelegate<TranslateController> {
 
 /*
  * Check the first letter in case estella lowercase will be changed to uppercase
- * @author  SGV - 20210419
- * @version 1.0 - 20210419 - initial release
+ * @author  SGV - 20230814
+ * @version 1.0 - 20230814 - initial release
  * @return  first capital letter
  */
 extension CapExtension on String {

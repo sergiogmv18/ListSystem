@@ -38,19 +38,17 @@ dependencies:
   provider: ^6.0.5
   shared_preferences: ^2.0.17
   font_awesome_flutter: ^10.4.0
-  flutter_secure_storage: ^8.0.0
   floor_generator: ^1.2.0
   background_fetch: ^1.1.6
   build_runner: ^2.1.8
   sqflite: ^2.3.0
   floor: ^1.4.2
   cloud_firestore: ^4.8.4
-  encrypt: ^5.0.1
-  steel_crypt: ^3.0.0+1
+  flutter_launcher_icons: "^0.9.0"
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-
+  connectivity_plus: ^4.0.2
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -64,6 +62,11 @@ dev_dependencies:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
+flutter_icons:
+  image_path: "assets/460136.webp"
+  #adaptive_icon_foreground: "assets/mr_Coolz.jpg"
+  android: true
+
 
 # The following section is specific to Flutter packages.
 flutter:

@@ -6,7 +6,8 @@ class ModelBase{
   @PrimaryKey(autoGenerate: true)
   final int ?id;
   bool isNecessarySaveInServer;
-  ModelBase({this.id, this.isNecessarySaveInServer = false});
+  bool deleteInServer;
+  ModelBase({this.id, this.isNecessarySaveInServer = false, this.deleteInServer = false});
 
   // GETs
   int? getId(){
@@ -18,6 +19,13 @@ class ModelBase{
     return isNecessarySaveInServer;
   }
 
+ bool getDeleteServer(){
+    return deleteInServer;
+  }
+
+ void setDeleteServer(bool deleteInServer){
+    this.deleteInServer = deleteInServer;
+  }
 
   void setIsNecessarySaveInServer(bool isNecessarySaveInServer){
     this.isNecessarySaveInServer = isNecessarySaveInServer;

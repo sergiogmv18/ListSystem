@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:list_system/controllers/task_app_controller.dart';
 import 'package:list_system/routes.dart';
 import 'package:list_system/style.dart';
 import 'package:provider/provider.dart';
@@ -13,7 +12,6 @@ void main() async {
     MultiProvider(
       providers: [
         ChangeNotifierProvider.value(value: TranslateController.getInstance()),
-        ChangeNotifierProvider(create: (context) => TaskAppController()),
       ],
       child: const ListSystem(),
     )

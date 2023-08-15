@@ -42,6 +42,9 @@ class CustomColors {
   final Color lightBlue =const  Color(0xff9fd6ff);
   final Color blueShade = const Color(0xff2d60b4);
   final Color backgroundColor = Colors.white;
+  final Color inputColor =const Color.fromARGB(255, 222, 216, 47);
+  final Color colorDark = Colors.black;
+  final Color colorOxi = Colors.red;
 }
 
 class TextThemeCustom {

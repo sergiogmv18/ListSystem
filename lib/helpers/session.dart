@@ -4,7 +4,7 @@ class Session {
   /*
    * set value
    * @author SGV
-   * @version 2023-05-04 initial release
+   * @version 20230814 initial release
    * @param <String> key
    * @param <dynamic> value
    * @return void
@@ -16,7 +16,7 @@ class Session {
   /*
    * get value
    * @author SGV
-   * @version 2023-05-04 initial release
+   * @version 20230814 initial release
    * @param <String> key
    * @return dynamic
    */
@@ -30,7 +30,7 @@ class Session {
   /*
    * remove
    * @author SGV
-   * @version 2023-05-04 initial release
+   * @version 20230814 initial release
    * @param <String> key
    * @return void
    */
@@ -43,7 +43,7 @@ class Session {
   /*
    * get all
    * @author SGV
-   * @version 2023-05-04 initial release
+   * @version 20230814 initial release
    * @return Map<String, dynamic>
    */
   Map<String, dynamic> getAll() {
@@ -53,7 +53,7 @@ class Session {
   /*
    * clear session
    * @author SGV
-   * @version 2023-05-04 initial release
+   * @version 20230814 initial release
    * @return void
    */
   void clear() {

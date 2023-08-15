@@ -1,9 +1,8 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:get_it/get_it.dart';
-import 'package:list_system/controllers/firebase_controller.dart';
+import 'package:list_system/controllers/task_app_controller.dart';
 import 'package:list_system/database/list_system_database.dart';
 import 'package:list_system/helpers/session.dart';
+import 'package:list_system/models/task.dart';
 
 GetIt serviceLocator = GetIt.instance;
 
@@ -14,7 +13,6 @@ GetIt serviceLocator = GetIt.instance;
   * @return  void
   */
 Future<void> setupLocator() async {
-
   if (!serviceLocator.isRegistered<ListSystemDatabase>()) {
     ListSystemDatabase databaseInstance = await $FloorListSystemDatabase.databaseBuilder('listsystem_database.db').build();
     serviceLocator.registerSingleton<ListSystemDatabase>(databaseInstance);
@@ -26,12 +24,13 @@ Future<void> setupLocator() async {
 }
 
 /*
-  * set data session
+  * Set data session
   * @author  SGV
   * @version 1.0 - 20230814 - initial release
   * @return  void
   */
 Future startSession() async {
   Session session = serviceLocator<Session>();
-  session.setValue('transactions', 'creditRequests' ?? {});
+  List<TaskApp?> alltask = await TaskAppController().getAllTask();
+  session.setValue('tasks', alltask);
 }

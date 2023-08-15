@@ -17,6 +17,7 @@ import 'package:list_system/style.dart';
  */
 appBarCustom(BuildContext context, {bool showButtonReturn = false, String? route, Object? arguments}) {
   return AppBar(
+    automaticallyImplyLeading: showButtonReturn,
     leading:showButtonReturn ? Container( 
       alignment: Alignment.centerLeft,
       padding: const EdgeInsets.fromLTRB(10, 0, 0, 0), 
@@ -24,7 +25,7 @@ appBarCustom(BuildContext context, {bool showButtonReturn = false, String? route
         onPressed: (){
           Navigator.of(context).pushNamedAndRemoveUntil(route!, (route) => false, arguments: arguments);
         },
-        child: FaIcon(FontAwesomeIcons.circleArrowLeft, size: 50, color: CustomColors().backgroundColor)
+        child: FaIcon(FontAwesomeIcons.arrowLeft, size: 40, color: CustomColors().backgroundColor)
       ) 
     ): null,
     elevation: 2,

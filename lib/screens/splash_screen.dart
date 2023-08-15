@@ -7,12 +7,15 @@ import 'package:flutter/services.dart';
 import 'package:list_system/components/button_custom.dart';
 import 'package:list_system/components/circular_loading.dart';
 import 'package:list_system/components/logo_definited.dart';
+import 'package:list_system/controllers/synchronize_controller.dart';
+import 'package:list_system/helpers/background_fetch.dart';
 import 'package:list_system/controllers/task_app_controller.dart';
 import 'package:list_system/controllers/translate.dart';
 import 'package:list_system/helpers/function_class.dart';
 import 'package:list_system/helpers/service_locator.dart';
 import 'package:list_system/screens/home_screen.dart';
 import 'package:list_system/style.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -79,6 +82,7 @@ class SplashScreenState extends State<SplashScreen> {
                 )
               );
             } else {
+              
               return const HomeScreen();
             }
           },
@@ -91,26 +95,36 @@ class SplashScreenState extends State<SplashScreen> {
   * initialize dependencies
   * @author  SGV
   * @version 1.0 - 20210506 - initial release
-  * @return    * @return  <bool> - know what was done successfully
+  * @return  <bool> - know what was done successfully
   */
   Future<bool> initializeDependencies() async {
-    
     bool response = false;
+    final prefs = await SharedPreferences.getInstance();
+   if(prefs.getBool('first_Confirmation') != true && !await FunctionsClass().checkConnectivityApp()){
+      return false;
+   }
     try {
-
       await Firebase.initializeApp();
       await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
       await TranslateController.getInstance().loadTranslations();
       await setupLocator();
       FirebaseFirestore.instance;
+      await BackgroundFetchController().initialize();
+      if(prefs.getBool('first_Confirmation') == true){
+        await startSession();
+        await SynchronizeController().necessarySaveInServer();
+      }else{
+        await TaskAppController().importTasksOfFirebase();
+
+      }
+     prefs.setBool('first_Confirmation', true);
       response = true;
-      await TaskAppController().getAllTask();
     } catch (e) {
       print("Error al inicializar $e");
      return response;
     }
-   
-   FunctionsClass.printDebug(response);
+
+
     return response;
   }
 }

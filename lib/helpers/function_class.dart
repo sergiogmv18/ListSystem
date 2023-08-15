@@ -1,6 +1,6 @@
 import 'dart:developer';
+import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:list_system/controllers/translate.dart';
 import 'package:intl/intl.dart';
 
@@ -9,8 +9,8 @@ class FunctionsClass {
 
   /*
    * date parse
-   * @author  BSB - 20210330
-   * @version 1.0 - 20210330 - initial release
+   * @author  SGV - 20230814
+   * @version 1.0 - 20230814 - initial release
    * @param <String> dateString
    * @return  DateTime
    */
@@ -32,8 +32,8 @@ class FunctionsClass {
 
   /*
   * Activate or not be able to go back to the previous page
-  * @author  SGVx
-  * @version 20230228 - initial release
+  * @author  SGV
+  * @version 20230814 - initial release
   * @param   <bool>   - backToScreen -> true  - redirect to specific routeName  
   *                                  -> false -  does not make changes
   * @param   <String> -[routeName]    -> specific route 
@@ -51,7 +51,7 @@ class FunctionsClass {
  /*
   * Delete accent in String
   * @author  SGV
-  * @version 1.0 - 20230418 - initial release
+  * @version 1.0 - 20230814 - initial release
   * @return  String
   */
   static String removeAccents(String str) {
@@ -67,7 +67,7 @@ class FunctionsClass {
   /*
   * Country-specific closing format
   * @author SGV
-  * @version 20230227 initial release
+  * @version 20230814 initial release
   * @return  String;
   */
   static countrySpecificClosingFormat() {
@@ -91,7 +91,7 @@ class FunctionsClass {
   /*
   * Show data in debug console
   * @author SGV
-  * @version 20230215 initial release
+  * @version 20230814 initial release
   * @param <var> debug - object to see
   * @return  void
   */
@@ -110,42 +110,7 @@ class FunctionsClass {
     BorderRadiusGeometry? borderRadius = BorderRadius.all(Radius.circular(radius));
     return borderRadius;
   }
-
-
-  /*
-  * initial global flutter secure storange
-  * @author SGV
-  * @version 20230215 initial release
-  * @return  void
-  */
-  static FlutterSecureStorage storage = const FlutterSecureStorage();
-
-
-
-  /*
-   * trim left
-   * @author  SGV
-   * @version 1.0    - 20230215 - Initial release 
-   * @param <String> - string - value in string to verify
-   * @param <String> -  characters - quantity charac
-   * @return <String>
-   */
-  static String trimLeft(String string, String characters) {
-    string = string.trim();
-    characters = characters.trim();
-    if (characters.length > string.length) {
-      return string;
-    }
-    if (string.isEmpty || characters.isEmpty) {
-      return string;
-    }
-    String value = string.substring(0, characters.length).trim();
-    if (value == characters) {
-      return string.substring(characters.length);
-    }
-    return string;
-  }
-
+  
   /*
   * Format date
   * @author  SGV - 20230215
@@ -166,5 +131,14 @@ class FunctionsClass {
       dateString = null;
     }
     return dateString;
+  }
+
+  Future<bool> checkConnectivityApp()async {
+    bool connectivity = false;
+    var connectivityResult = await Connectivity().checkConnectivity();
+    if(connectivityResult != ConnectivityResult.none){
+      connectivity = true;
+    }
+    return connectivity;
   }
 }
