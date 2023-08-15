@@ -1,5 +1,8 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:tools="http://schemas.android.com/tools"
+    package="com.list.system">
     <application
+        tools:replace="android:label"
         android:label="list_system"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">

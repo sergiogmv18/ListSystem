@@ -1,0 +1,1905 @@
+[
+    { 
+        "placeholder":"save",
+        "en":"save",
+        "pt_br":"salvar"
+    },
+    { 
+        "placeholder":"select date",
+        "en":"select date",
+        "pt_br":"selecionar data"
+    },
+    { 
+        "placeholder":"cancel",
+        "en":"cancel",
+        "pt_br":"cancelar"
+    },
+    { 
+        "placeholder":"camera",
+        "en":"camera",
+        "pt_br":"câmera"
+    },
+    { 
+        "placeholder":"gallery",
+        "en":"gallery",
+        "pt_br":"galeria"
+    },
+    { 
+        "placeholder":"my Kards",
+        "en":"my Kards",
+        "pt_br":"meus Kards"
+    },
+    { 
+        "placeholder":"kard",
+        "en":"kard",
+        "pt_br":"kard"
+    },
+    { 
+        "placeholder":"week",
+        "en":"week",
+        "pt_br":"semana"
+    },
+    { 
+        "placeholder":"segund",
+        "en":"segund",
+        "pt_br":"segundo"
+    },
+    { 
+        "placeholder":"email",
+        "en":"email",
+        "pt_br":"e-mail"
+    },
+    { 
+        "placeholder":"this email address is not valid",
+        "en":"this email address is not valid",
+        "pt_br":"esse endereço de e-mail não é válido"
+    },
+    { 
+        "placeholder":"verify",
+        "en":"verify",
+        "pt_br":"verificar"
+    },
+    { 
+        "placeholder":"confirmation code",
+        "en":"confirmation code",
+        "pt_br":"código de confirmação"
+    },
+    { 
+        "placeholder":"this code is not valid",
+        "en":"this code is not valid",
+        "pt_br":"esse código não é válido"
+    },
+    { 
+        "placeholder":"log in",
+        "en":"log in",
+        "pt_br":"acessar"
+    },
+    { 
+        "placeholder":"email not registered please create a new account",
+        "en":"email not registered please create a new account",
+        "pt_br":"e-mail não cadastrado. Por favor crie uma conta"
+    },
+    { 
+        "placeholder":"existing email, your data will be recovered, it may take a while",
+        "en":"existing email, your data will be recovered, it may take a while",
+        "pt_br":"e-mail existente. Seus dados serão recuperados e isso pode demorar um pouco"
+    },
+    { 
+        "placeholder":"this week",
+        "en":"this week",
+        "pt_br":"essa semana"
+    },
+    { 
+        "placeholder":"random",
+        "en":"random",
+        "pt_br":"aleatório"
+    },
+    { 
+        "placeholder":"my targeted",
+        "en":"my targeted",
+        "pt_br":"meus cronogramas"
+    },
+    { 
+        "placeholder":"against time",
+        "en":"against time",
+        "pt_br":"contratempo"
+    },
+    { 
+        "placeholder":"did not find what you searched for? Leave us a message and we will get back to you",
+        "en":"did not find what you searched for? Leave us a message and we will get back to you",
+        "pt_br":"não achou o que procurava? Deixe sua mensagem que responderemos em breve"
+    },
+    { 
+        "placeholder":"first name",
+        "en":"first name",
+        "pt_br":"primeiro(s) nome(s)"
+    },
+    { 
+        "placeholder":"last name",
+        "en":"last name",
+        "pt_br":"sobrenome"
+    },
+    { 
+        "placeholder":"enter a valid value",
+        "en":"enter a valid value",
+        "pt_br":"digite um valor válido"
+    },
+    { 
+        "placeholder":"birth date",
+        "en":"birth date",
+        "pt_br":"data de nascimento"
+    },
+    { 
+        "placeholder":"please insert your birth date",
+        "en":"please insert your birth date",
+        "pt_br":"por favor insira sua data de nascimento"
+    },
+    { 
+        "placeholder":"gender",
+        "en":"gender",
+        "pt_br":"gênero"
+    },
+    { 
+        "placeholder":"address",
+        "en":"address",
+        "pt_br":"endereço"
+    },
+    { 
+        "placeholder":"complement",
+        "en":"complement",
+        "pt_br":"complemento"
+    },
+    { 
+        "placeholder":"postcode",
+        "en":"postcode",
+        "pt_br":"CEP"
+    },
+    { 
+        "placeholder":"city",
+        "en":"city",
+        "pt_br":"cidade"
+    },
+    { 
+        "placeholder":"mobile phone",
+        "en":"mobile phone",
+        "pt_br":"celular"
+    },
+    { 
+        "placeholder":"preparing studies",
+        "en":"preparing studies",
+        "pt_br":"preparando estudos"
+    },
+    { 
+        "placeholder":"mark all studies you may choose in the future. this help Blkards to tailor the disciplines to your needs",
+        "en":"mark all studies you may choose in the future. this help Blkards to tailor the disciplines to your needs",
+        "pt_br":"marque todos os estudos que você poderá escolher futuramente. Isso ajuda o Blkards a ajustar as disciplinas que você precisa"
+    },
+    { 
+        "placeholder":"phone number",
+        "en":"phone number",
+        "pt_br":"número de telefone"
+    },
+    { 
+        "placeholder":"invalid phone number",
+        "en":"invalid phone number",
+        "pt_br":"número de telefone inválido"
+    },
+    { 
+        "placeholder":"search by country name or dial code",
+        "en":"search by country name or dial code",
+        "pt_br":"pesquisar pelo nome do país ou pelo código postal"
+    },
+    { 
+        "placeholder":"enter the confirmation code sent your email",
+        "en":"enter the confirmation code sent your email",
+        "pt_br":"digite o código de confirmação enviado para o seu e-mail"
+    },
+    { 
+        "placeholder":"send",
+        "en":"send",
+        "pt_br":"enviar"
+    },
+    { 
+        "placeholder":"attention",
+        "en":"attention",
+        "pt_br":"atenção"
+    },
+    { 
+        "placeholder":"incomplete data, please enter the fields",
+        "en":"incomplete data, please enter the fields",
+        "pt_br":"dados incompletos. Por favor preencha todos os campos"
+    },
+    { 
+        "placeholder":"please check the data entered and your internet connection and try again",
+        "en":"please check the data entered and your internet connection and try again",
+        "pt_br":"por favor verifique os dados inseridos, sua conexão com a internet e tente novamente"
+    },
+    { 
+        "placeholder":"connection failed please try again later",
+        "en":"connection failed please try again later",
+        "pt_br":"falha na conexão. Por favor tente novamente mais tarde"
+    },
+    { 
+        "placeholder":"something went wrong, try again",
+        "en":"something went wrong, try again",
+        "pt_br":"algo deu errado, tente novamente"
+    },
+    { 
+        "placeholder":"save and continue",
+        "en":"save and continue",
+        "pt_br":"salvar e continuar"
+    },
+    { 
+        "placeholder":"delayed time",
+        "en":"delayed time",
+        "pt_br":"duração"
+    },
+    { 
+        "placeholder":"answer",
+        "en":"answer",
+        "pt_br":"resposta"
+    },
+    { 
+        "placeholder":"check your internet connection to continue",
+        "en":"check your internet connection to continue",
+        "pt_br":"verifique sua conexão com a internet para continuar"
+    },
+    { 
+        "placeholder":"full Name",
+        "en":"full Name",
+        "pt_br":"nome completo"
+    },
+    { 
+        "placeholder":"customer service",
+        "en":"customer service",
+        "pt_br":"atendimento ao cliente"
+    },
+    { 
+        "placeholder":"settings",
+        "en":"settings",
+        "pt_br":"configurações"
+    },
+    { 
+        "placeholder":"done",
+        "en":"done",
+        "pt_br":"feito"
+    },
+    { 
+        "placeholder":"correct",
+        "en":"correct",
+        "pt_br":"correto"
+    },
+    { 
+        "placeholder":"average",
+        "en":"average",
+        "pt_br":"tempo"
+    },
+    { 
+        "placeholder":"legal and usage terms",
+        "en":"Legal and usage terms",
+        "pt_br":"Termos Legais e de Uso"
+    },
+    { 
+        "placeholder":"please read and accept the conditions to be able to continue",
+        "en":"please read and accept the conditions to be able to continue",
+        "pt_br":"por favor leia e aceite as condições para continuar"
+    },
+    { 
+        "placeholder":"next",
+        "en":"next",
+        "pt_br":"próximo"
+    },
+    { 
+        "placeholder":"is necessary to inform the parameters mandatory",
+        "en":"is necessary to inform the parameters mandatory",
+        "pt_br":"é necessário informar os campos obrigatórios"
+    },
+    { 
+        "placeholder":"continue",
+        "en":"continue",
+        "pt_br":"prosseguir"
+    },
+    { 
+        "placeholder":"my kards",
+        "en":"my kards",
+        "pt_br":"meus kards"
+    },
+    { 
+        "placeholder":"no kard in that week, please try another week",
+        "en":"no kard in that week, please try another week",
+        "pt_br":"nenhum kard nessa semana, por favor tente outra semana"
+    },
+    { 
+        "placeholder":"kards never seen",
+        "en":"kards never seen",
+        "pt_br":"kards não visualizados"
+    },
+    { 
+        "placeholder":"kards already seen",
+        "en":"kards already seen",
+        "pt_br":"kards já visualizados"
+    },
+    { 
+        "placeholder":"kards failed",
+        "en":"kards failed",
+        "pt_br":"kards errados"
+    },
+    { 
+        "placeholder":"kards succeded",
+        "en":"kards succeded",
+        "pt_br":"kards corretos"
+    },
+     { 
+        "placeholder":"to",
+        "en":"to",
+        "pt_br":"até"
+    },
+    { 
+        "placeholder":"select disciplines",
+        "en":"select disciplines",
+        "pt_br":"selecionar disciplinas"
+    },
+    { 
+        "placeholder":"please select an option",
+        "en":"please select an option",
+        "pt_br":"por favor selecione uma opção"
+    },
+     { 
+        "placeholder":"title",
+        "en":"title",
+        "pt_br":"título"
+    },
+    { 
+        "placeholder":"please enter value valid",
+        "en":"please enter value valid",
+        "pt_br":"por favor insira um valor válido"
+    },
+    { 
+        "placeholder":"message",
+        "en":"message",
+        "pt_br":"mensagem"
+    },
+    { 
+        "placeholder":"frequent doubts",
+        "en":"frequent doubts",
+        "pt_br":"dúvidas frequentes"
+    },
+    { 
+        "placeholder":"error when redirecting to whatsapp",
+        "en":"error when redirecting to whatsapp",
+        "pt_br":"erro ao redirecionar para o Whatsapp"
+    },
+    { 
+        "placeholder":"change user data",
+        "en":"change user data",
+        "pt_br":"alterar dados pessoais"
+    },
+    { 
+        "placeholder":"change email",
+        "en":"change email",
+        "pt_br":"alterar e-mail"
+    },
+    { 
+        "placeholder":"clean all",
+        "en":"clean all",
+        "pt_br":"limpar tudo"
+    },
+    { 
+        "placeholder":"the provided email is already in use",
+        "en":"the provided email is already in use",
+        "pt_br":"o e-mail informado já está em uso"
+    },
+    { 
+        "placeholder":"return",
+        "en":"return",
+        "pt_br":"voltar"
+    },
+    { 
+        "placeholder":"all the results of the answered kards will be deleted",
+        "en":"all the results of the answered kards will be deleted",
+        "pt_br":"todos os resultados dos kards respondidos serão deletados"
+    },
+    { 
+        "placeholder":"confirm",
+        "en":"confirm",
+        "pt_br":"confirmar"
+    },
+    { 
+        "placeholder":"buy",
+        "en":"buy",
+        "pt_br":"comprar"
+    },
+    { 
+        "placeholder":"check your internet and try again",
+        "en":"check your internet and try again",
+        "pt_br":"verifique sua conexão com a internet e tente novamente"
+    },
+    { 
+        "placeholder":"be a Premium user",
+        "en":"be a Premium user",
+        "pt_br":"ainda não se tornou PREMIUM"
+    },
+    { 
+        "placeholder":"you are Premium",
+        "en":"you are Premium",
+        "pt_br":"usuário Premium"
+    },
+    { 
+        "placeholder":"performed a paid functionality, become a Premium user",
+        "en":"performed a paid functionality, become a Premium user",
+        "pt_br":"executou uma funcionalidade paga, torne-se um usuário Premium"
+    },
+    { 
+        "placeholder":"purchase",
+        "en":"purchase",
+        "pt_br":"comprar"
+    },
+    { 
+        "placeholder":"can't answer in 0 seconds",
+        "en":"can't answer in 0 seconds",
+        "pt_br":"não pode responder em 0 segundos"
+    },
+    { 
+        "placeholder":"no kards on that schedule please try another",
+        "en":"no kards on that schedule please try another",
+        "pt_br":"nenhum kard nesse cronograma, por favor tente outro"
+    },
+	{ 
+        "placeholder":"today",
+        "en":"today",
+        "pt_br":"hoje"
+    },
+	{ 
+        "placeholder":"yesterday",
+        "en":"yesterday",
+        "pt_br":"ontem"
+    },
+	{ 
+        "placeholder":"tomorrow",
+        "en":"tomorrow",
+        "pt_br":"amanhã"
+    },
+	{ 
+        "placeholder":"a week ago",
+        "en":"a week ago",
+        "pt_br":"uma semana atrás"
+    },
+	{ 
+        "placeholder":"6 days ago",
+        "en":"6 days ago",
+        "pt_br":"6 dias atrás"
+    },
+	{ 
+        "placeholder":"5 days ago",
+        "en":"5 days ago",
+        "pt_br":"5 dias atrás"
+    },
+	{ 
+        "placeholder":"4 days ago",
+        "en":"4 days ago",
+        "pt_br":"4 dias atrás"
+    },
+	{ 
+        "placeholder":"3 days ago",
+        "en":"3 days ago",
+        "pt_br":"3 dias atrás"
+    },
+	{ 
+        "placeholder":"2 days ago",
+        "en":"2 days ago",
+        "pt_br":"2 dias atrás"
+    },
+	{ 
+        "placeholder":"in 2 days",
+        "en":"in 2 days",
+        "pt_br":"em 2 dias"
+    },
+	{ 
+        "placeholder":"in 3 days",
+        "en":"in 3 days",
+        "pt_br":"em 3 dias"
+    },
+	{ 
+        "placeholder":"in 4 days",
+        "en":"in 4 days",
+        "pt_br":"em 4 dias"
+    },
+	{ 
+        "placeholder":"in 5 days",
+        "en":"in 5 days",
+        "pt_br":"em 5 dias"
+    },
+	{ 
+        "placeholder":"in 6 days",
+        "en":"in 6 days",
+        "pt_br":"em 6 dias"
+    },
+	{ 
+        "placeholder":"in a week",
+        "en":"in a week",
+        "pt_br":"em uma semana"
+	},
+	{ 
+        "placeholder":"all the work data will be deleted",
+        "en":"all the work data will be deleted",
+        "pt_br":"todo o seu progresso no app e plataforma serão perdidos. Seus kards criados serão apagados e seu cronograma será reiniciado"
+    },
+	{ 
+        "placeholder":"no MemoKard for the time being",
+        "en":"no MemoKard for the time being",
+        "pt_br":"nenhum MemoKard por enquanto"
+    },
+    { 
+        "placeholder":"you are a Premium user",
+        "en":"you are a Premium user",
+        "pt_br":"você é um usuário PREMIUM"
+    },
+    { 
+        "placeholder":"your purchase failed please try again",
+        "en":"your purchase failed please try again",
+        "pt_br":"ocorreu uma falha durante sua compra, por favor tente novamente"
+    },
+    { 
+        "placeholder":"you have a pending purchase please conclude",
+        "en":"you have a pending purchase please conclude",
+        "pt_br":"você tem uma compra pendente, por favor conclua"
+    },
+    { 
+        "placeholder":"select purchase",
+        "en":"select purchase",
+        "pt_br":"selecione a compra"
+    },
+    { 
+        "placeholder":"successful purchase , we are updating the kards and features, it may take a few minutes",
+        "en":"successful purchase , we are updating the kards and features, it may take a few minutes",
+        "pt_br":"compra bem sucedida. Estamos atualizando os kards e recursos, isso pode demorar alguns minutos"
+    },
+    { 
+        "placeholder":"failed purchase please try again",
+        "en":"failed purchase please try again",
+        "pt_br":"ocorreu uma falha durante sua compra, por favor tente novamente"
+    },
+    { 
+        "placeholder":"this version of the app is outdated. Please update to the latest version",
+        "en":"this version of the app is outdated. Please update to the latest version",
+        "pt_br":"essa versão do app não é mais suportada. Por favor atualize o app na loja"
+    },
+    { 
+        "placeholder":"ok",
+        "en":"OK",
+        "pt_br":"OK"
+    },
+    { 
+        "placeholder":"please check and update for the latest version, already available",
+        "en":"please check and update for the latest version, already available",
+        "pt_br":"verifique e atualize para a versão mais recente, já disponível"
+    },
+    { 
+        "placeholder":"an error occurred, please try again later",
+        "en":"an error occurred, please try again later",
+        "pt_br":"ocorreu um erro. Por favor tente novamente mais tarde"
+    },
+	{ 
+        "placeholder":"this week on Blkards",
+        "en":"this week on Blkards",
+        "pt_br":"essa semana no Blkards"
+    },
+	{ 
+        "placeholder":"memoKard",
+        "en":"memoKard",
+        "pt_br":"memoKard"
+    },
+	{
+        "placeholder":"in order to access the web part on",
+        "en":"in order to access the web part on",
+        "pt_br":"para acessar a versão web (no seu computador ou tablet) em"
+    },
+    {
+        "placeholder":"in order to access the web part",
+        "en":"in order to access the web part",
+        "pt_br":"para acessar a versão web (no seu computador ou tablet)"
+    },
+    {
+        "placeholder":"web part",
+        "en":"web part",
+        "pt_br":"parte web"
+    },
+    {
+        "placeholder":"please scan the QR code found on the site",
+        "en":"please scan the QR code found there on the site",
+        "pt_br":"por favor escaneie o código QR, disponível no site"
+    },
+    { 
+        "placeholder":"scan QR code now",
+        "en":"scan QR code no",
+        "pt_br":"escanear agora"
+    },
+    { 
+        "placeholder":"Privacy Policy",
+        "en":"Privacy Policy",
+        "pt_br":"Política de Privacidade"
+    },
+    { 
+        "placeholder":"Terms & Conditions",
+        "en":"Terms & Conditions",
+        "pt_br":"Termos e Condições"
+    },
+    {    
+        "placeholder":"Payment will be charged to your iTunes account at confirmation of purchase. Subsciptions will automatically renew unless auto-renew is turned off at least 24 hours before the end of current period. Your account will be charged according to your plan for renewal within 24 hours prior to the end of the current period. You can manage or turn off auto-renew in your Apple ID account settings at any time after purchase.",
+        "en":"Payment will be charged to your iTunes account at confirmation of purchase. Subsciptions will automatically renew unless auto-renew is turned off at least 24 hours before the end of current period. Your account will be charged according to your plan for renewal within 24 hours prior to the end of the current period. You can manage or turn off auto-renew in your Apple ID account settings at any time after purchase.",
+        "pt_br":"Ao confirmar a compra o pagamento será cobrado na sua conta iTunes. As assinaturas serão renovadas automaticamente, a menos que a renovação automática seja desativada pelo menos 24 horas antes do final do período. Sua conta será cobrada de acordo com seu plano para renovação, dentro de 24 horas antes do final do período. Você pode gerenciar ou desativar a renovação automática, nas configurações da sua conta Apple, a qualquer momento após a compra. "
+    },
+    { 
+        "placeholder":"error when redirecting for privacy Policy page",
+        "en":"error when redirecting for privacy Policy page",
+        "pt_br":"erro ao redirecionar para a página de política de privacidade"
+    },
+    { 
+        "placeholder":"error when redirecting for terms and conditions page",
+        "en":"error when redirecting for terms and conditions page",
+        "pt_br":"erro ao redirecionar para a página de termos e condições"
+    },
+    { 
+        "placeholder":"subscribe",
+        "en":"subscribe",
+        "pt_br":"assinar"
+    },
+    { 
+        "placeholder":"fetching products",
+        "en":"fetching products",
+        "pt_br":"buscando produtos"
+    },
+    { 
+        "placeholder":"not found",
+        "en":"not found",
+        "pt_br":"não encontrado"
+    },
+    { 
+        "placeholder":"price change accepted",
+        "en":"price change accepted",
+        "pt_br":"alteração de preço aceita"
+    },
+    { 
+        "placeholder":"please try again later",
+        "en":"please try again later",
+        "pt_br":"por favor, tente novamente mais tarde"
+    },
+    { 
+        "placeholder":"price change failed with code",
+        "en":"price change failed with code",
+        "pt_br":"falha na alteração de preço, com código"
+    },
+    { 
+        "placeholder":"in order for Blkards app to synchronize to the web part,notifications need to be activated",
+        "en":"in order for Blkards app to synchronize to the web part, notifications need to be activated",
+        "pt_br":"para que o aplicativo Blkards sincronize com a versão web, as notificações precisam estar ativadas"
+    },
+    { 
+        "placeholder":"setting",
+        "en":"setting",
+        "pt_br":"configuração"
+    },
+    { 
+        "placeholder":"notifications",
+        "en":"notifications",
+        "pt_br":"notificações"
+    },
+    { 
+        "placeholder":"enable notifications",
+        "en":"enable notifications",
+        "pt_br":"permitir notificações"
+    },
+    { 
+        "placeholder":"please activate the notification for this app in",
+        "en":"please activate the notification for this app in",
+        "pt_br":"por favor, ative as notificações para esse aplicativo em"
+    },
+    { 
+        "placeholder":"not yet (limited experience)",
+        "en":"not yet (limited experience)",
+        "pt_br":"ainda não (experiência limitada)"
+    },
+    { 
+        "placeholder":"syncing data",
+        "en":"syncing data",
+        "pt_br":"sincronizando dados"
+    },
+    { 
+        "placeholder":"all your data will be synchronized",
+        "en":"all your data will be synchronized",
+        "pt_br":"todos os seus dados serão sincronizados"
+    },
+    { 
+        "placeholder":"sync data",
+        "en":"sync data",
+        "pt_br":"sincronizar dados"
+    },
+    { 
+        "placeholder":"which themes",
+        "en":"which themes",
+        "pt_br":"quais temas"
+    },
+    { 
+        "placeholder":"topics",
+        "en":"topics",
+        "pt_br":"temas"
+    },
+    { 
+        "placeholder":"topic",
+        "en":"topic",
+        "pt_br":"tema"
+    },
+    {        
+        "placeholder":"day",
+        "en":"day",
+        "pt_br":"dia"
+    },
+    {        
+        "placeholder":"month",
+        "en":"month",
+        "pt_br":"mês"
+    },
+    {        
+        "placeholder":"year",
+        "en":"year",
+        "pt_br":"ano"
+    },
+    {        
+        "placeholder":"please check the inserted date and try again",
+        "en":"please check the inserted date and try again",
+        "pt_br":"por favor, confirme a data inserida e tente novamente"
+    },
+    {        
+        "placeholder":"response",
+        "en":"response",
+        "pt_br":"resposta"
+    },
+    {        
+        "placeholder":"question",
+        "en":"question",
+        "pt_br":"pergunta"
+    },
+    {        
+        "placeholder":"discipline",
+        "en":"discipline",
+        "pt_br":"disciplina"
+    },
+    {        
+        "placeholder":"disciplines",
+        "en":"disciplines",
+        "pt_br":"disciplinas"
+    },
+    {        
+        "placeholder":"months",
+        "en":"months",
+        "pt_br":"meses"
+    },
+    {        
+        "placeholder":"days",
+        "en":"days",
+        "pt_br":"dias"
+    },
+    {        
+        "placeholder":"create your targered",
+        "en":"create your targered",
+        "pt_br":"crie seu cronograma"
+    },
+    {        
+        "placeholder":"yearly",
+        "en":"yearly",
+        "pt_br":"anual"
+    },
+    {        
+        "placeholder":"semiannual",
+        "en":"semiannual",
+        "pt_br":"semestral"
+    },
+    {        
+        "placeholder":"quarterly",
+        "en":"quarterly",
+        "pt_br":"trimestral"
+    },
+    {        
+        "placeholder":"monthly",
+        "en":"monthly",
+        "pt_br":"mensal"
+    },
+    {        
+        "placeholder":"select target current",
+        "en":"select target current",
+        "pt_br":"selecione seu cronograma atual"
+    },
+    {        
+        "placeholder":"my targeted",
+        "en":"my targeted",
+        "pt_br":"meus cronogramas"
+    },  
+    {        
+        "placeholder":"would you like to see the tutorial of",
+        "en":"would you like to see the tutorial of",
+        "pt_br":"gostaria de ver o tutorial de"
+    },
+    {        
+        "placeholder":"no",
+        "en":"no",
+        "pt_br":"não"
+    },
+    {        
+        "placeholder":"yes",
+        "en":"yes",
+        "pt_br":"sim"
+    },
+    {           
+        "placeholder":"tap and return to the previous page",
+        "en":"tap and return to the previous page",
+        "pt_br":"toque para voltar à página anterior"
+    },
+    {        
+        "placeholder":"prepare a title for our support team to have a better view",
+        "en":"prepare a title for our support team to have a better view",
+        "pt_br":"elabore um título, para melhor direcionamento entre os membros da nossa equipe de suporte"
+    },
+    {        
+        "placeholder":"write your message in the field below",
+        "en":"write your message in the field below",
+        "pt_br":"escreva sua mensagem no campo abaixo"
+    },
+    {        
+        "placeholder":"tap to send the message to the support group,(the title and message fields must be filled in, otherwise, it will not be sent automatically showing an error and you will have to perform the process again)",
+        "en":"tap to send the message to the support group,(the title and message fields must be filled in, otherwise, it will not be sent automatically showing an error and you will have to perform the process again)",
+        "pt_br":"toque para enviar a mensagem para o grupo de suporte, (os campos título e mensagem devem ser preenchidos, caso contrário, não será enviado mostrando automaticamente um erro e você terá que realizar o processo novamente)."
+    },
+    {        
+        "placeholder":"see no more",
+        "en":"see no more",
+        "pt_br":"não ver mais"
+    },
+    {            
+        "placeholder":"tap and select the discipline of your new kard",
+        "en":"tap and select the discipline of your new kard",
+        "pt_br":"toque e selecione a disciplina do seu novo kard"
+    },
+    {            
+        "placeholder":"tap and select the corresponding week of your Kard",
+        "en":"tap and select the corresponding week of your Kard",
+        "pt_br":"toque e selecione a semana correspondente do seu novo kard"
+    },
+    {        
+        "placeholder":"write a question for your new kard",
+        "en":"Write a question for your new kard",
+        "pt_br":"escreva uma pergunta para seu novo kard"
+    },
+    {        
+        "placeholder":"write an answer to your new kard is question",
+        "en":"write an answer to your new kard is question",
+        "pt_br":"escreva uma resposta para a pergunta do seu novo kard"
+    },
+    {        
+        "placeholder":"please tap to complete your new kard (the previous fields are mandatory, if not filled an error message will be displayed)",
+        "en":"please tap to complete your new kard (the previous fields are mandatory, if not filled an error message will be displayed)",
+        "pt_br":"por favor, toque para concluir seu novo kard (os campos anteriores são obrigatórios)"
+    },
+    {        
+        "placeholder":"tap and select the corresponding theme of your Kard",
+        "en":"tap and select the corresponding theme of your Kard",
+        "pt_br":"toque e selecione o tema correspondente do seu kard"
+    },
+    {        
+        "placeholder":"tap and jum to the week you want to do",
+        "en":"tap and jum to the week you want to do",
+        "pt_br":"toque e pule para a semana que deseja praticar"
+    },
+    {        
+        "placeholder":"tap and skip to the previous week",
+        "en":"tap and skip to the previous week",
+        "pt_br":"toque e pule para a semana anterior"
+    },
+    {        
+        "placeholder":"selected week",
+        "en":"selected week",
+        "pt_br":"semana selecionada"
+    },
+    {         
+        "placeholder":"touch and perform the kards of the previously selected week (you will be redirected if the number of kards is greater than 0)",
+        "en":"touch and perform the kards of the previously selected week (you will be redirected if the number of kards is greater than 0)",
+        "pt_br":"toque para praticar todos os kards da semana"
+    },
+    {        
+        "placeholder":"touch and perform the kards of the chosen discipline",
+        "en":"touch and perform the kards of the chosen discipline",
+        "pt_br":"toque para praticar os kards da disciplina escolhida"
+    },
+    {           
+        "placeholder":"shows the kards made and the kards that are available",
+        "en":"shows the kards made and the kards that are available",
+        "pt_br":"mostra os kards feitos e os kards que estão disponíveis"
+    },
+    {        
+        "placeholder":"shows the percentage between the kards played and the kards available",
+        "en":"shows the percentage between the kards played and the kards available",
+        "pt_br":"mostra a porcentagem entre os kards feitos e os kards disponíveis"
+    },
+    {        
+        "placeholder":"tap to filter the kards viewed (these kards can be right or wrong)",
+        "en":"tap to filter the kards viewed (these kards can be right or wrong)",
+        "pt_br":"toque para filtrar os kards visualizados (certos e/ou errados)"
+    },
+    {        
+        "placeholder":"touch to filter never viewed kards",
+        "en":"touch to filter never viewed kards",
+        "pt_br":"toque para filtrar os kards nunca visualizados"
+    },
+    {        
+        "placeholder":"tap to filter correctly answered kards",
+        "en":"tap to filter correctly answered kards",
+        "pt_br":"toque para filtrar os kards respondidos corretamente"
+    },
+    {        
+        "placeholder":"tap to filter kards that were answered incorrectly",
+        "en":"tap to filter kards that were answered incorrectly",
+        "pt_br":"toque para filtrar os kards respondidos erroneamente"
+    },
+    {        
+        "placeholder":"tap to choose the period of weeks you want to perform, ie; from start week to end week",
+        "en":"tap to choose the period of weeks you want to perform, ie; from start week to end week",
+        "pt_br":"toque para escolher o período de semanas que deseja praticar, ou seja, da semana inicial até a semana final"
+    },
+    {        
+        "placeholder":"list of pre-selected disciplines",
+        "en":"list of pre-selected disciplines",
+        "pt_br":"lista das disciplinas pré-selecionadas"
+    },
+    {        
+        "placeholder":"tap and select the desired discipline",
+        "en":"tap and select the desired discipline",
+        "pt_br":"toque e selecione a disciplina desejada"
+    },
+    {        
+        "placeholder":"tap and select the themes you want to filter",
+        "en":"tap and select the themes you want to filter",
+        "pt_br":"toque e selecione os temas que deseja filtrar"
+    },
+    {        
+        "placeholder":"according to the selection made previously, you will be able to view the amount of Kards available (this amount must be greater than 0, otherwise it will show an error message)",
+        "en":"according to the selection made previously, you will be able to view the amount of Kards available (this amount must be greater than 0, otherwise it will show an error message)",
+        "pt_br":"de acordo com a seleção realizada anteriormente, você poderá visualizar a quantidade de kards"
+    },
+    {        
+        "placeholder":"tap and you will be redirected to perform all Kards with the filters chosen previously (this amount must be greater than 0 obligatorily, otherwise it will show an error message)",
+        "en":"tap and you will be redirected to perform all Kards with the filters chosen previously (this amount must be greater than 0 obligatorily, otherwise it will show an error message)",
+        "pt_br":"toque para praticar os Kards correspondentes"
+    },
+    {        
+        "placeholder":"tap and you will be redirected to weekly targeted",
+        "en":"tap and you will be redirected to weekly targeted",
+        "pt_br":"toque para ser redirecionado para os cronogramas semanais"
+    },
+    {        
+        "placeholder":"touch and you will be redirected to all the targeted ones that belong to the option of the 6 months before the Enem test",
+        "en":"touch and you will be redirected to all the targeted ones that belong to the option of the 6 months before the Enem test",
+        "pt_br":"toque e será redirecionado para todos os cronogramas que pertencem á opção dos 6 meses antes da prova do Enem"
+    },
+    {        
+        "placeholder":"tap and you will be redirected to all the targeted ones that belong to the option of the 3 months before the Enem test",
+        "en":"tap and you will be redirected to all the targeted ones that belong to the option of the 3 months before the Enem test",
+        "pt_br":"toque e será redirecionado para todos os cronogramas que pertencem á opção dos 3 meses antes da prova do Enem"
+    },
+    {        
+        "placeholder":"touch and you will be redirected to all the targeted ones that belong to the option of the 30 days before the Enem test",
+        "en":"touch and you will be redirected to all the targeted ones that belong to the option of the 30 days before the Enem test",
+        "pt_br":"toque e será redirecionado para todos os cronogramas que pertencem á opção dos 30 dias antes da prova do Enem"
+    },
+    {        
+        "placeholder":"be directed to your tageted",
+        "en":"be directed to your tageted",
+        "pt_br":"seja direcionado aos seus cronogramas"
+    },
+    {        
+        "placeholder":"tap and be directed to your targeted created",
+        "en":"tap and be directed to your targeted created",
+        "pt_br":"toque para ser direcionado para seus cronogramas criados"
+    },
+    {        
+        "placeholder":"tap and be directed to a new target",
+        "en":"tap and be directed to a new target",
+        "pt_br":"toque para ser direcionado para um novo cronograma"
+    },
+    {        
+        "placeholder":"create my targeted",
+        "en":"create my targeted",
+        "pt_br":"criar meus cronogramas"
+    },
+{        
+        "placeholder":"name targeted",
+        "en":"name targeted",
+        "pt_br":"nome do cronograma"
+    },
+    {        
+        "placeholder":"comment",
+        "en":"comment",
+        "pt_br":"comentário"
+    },
+    {        
+        "placeholder":"write the name of your target (mandatory field)",
+        "en":"write the name of your target (mandatory field)",
+        "pt_br":"escreva o nome do seu cronograma (campo obrigatório)"
+    },
+    {        
+        "placeholder":"write a comment for your targeted (field not mandatory)",
+        "en":"write a comment for your targeted (field not mandatory)",
+        "pt_br":"escreva um comentário para o seu cronograma (campo não obrigatório)"
+    },
+    {        
+        "placeholder":"select so that your target has their Kards viewed and answered correctly and incorrectly",
+        "en":"select so that your target has their Kards viewed and answered correctly and incorrectly",
+        "pt_br":"selecione para que o seu cronograma tenha os Kards visualizados e respondidos de forma correta e/ou incorreta"
+    },
+    {        
+        "placeholder":"select so that your targeted has its Kards not viewed",
+        "en":"select so that your targeted has its Kards not viewed",
+        "pt_br":"selecione para que o seu cronograma tenha os Kards não visualizados "
+    },
+    {           
+        "placeholder":"select so that your target has its Kards answered correctly",
+        "en":"select so that your target has its Kards answered correctly",
+        "pt_br":"selecione para que o seu cronograma tenha os Kards respondidos corretamente"
+    },
+    {        
+        "placeholder":"select so that your target has your Kards answered incorrectly",
+        "en":"select so that your target has your Kards answered incorrectly",
+        "pt_br":"selecione para que o seu cronograma tenha os Kards respondidos erroneamente"
+    },
+    {          
+        "placeholder":"select the start week and end week of your targeted",
+        "en":"select the start week and end week of your targeted",
+        "pt_br":"selecione a semana inicial e semana final do seu cronograma"
+    },
+    {        
+        "placeholder":"tap and select the desired subjects for your targeted",
+        "en":"tap and select the desired subjects for your targeted",
+        "pt_br":"toque e selecione as disciplinas desejadas para o seu cronograma"
+    },
+    {        
+        "placeholder":"tap and select the desired themes for your targeted",
+        "en":"tap and select the desired themes for your targeted",
+        "pt_br":"toque e selecione os temas desejados para o seu cronograma"
+    },
+    {        
+        "placeholder":"will show the number of Kards according to the options selected previously (if the number of Kard is 0 an error message will appear, in this way it will not be possible to create your Kard)",
+        "en":"will show the number of Kards according to the options selected previously (if the number of Kard is 0 an error message will appear, in this way it will not be possible to create your Kard)",
+        "pt_br":"mostrará a quantidade de Kards segundo as opções selecionadas anteriormente"
+    },
+    {        
+        "placeholder":"tap to create your new targeted",
+        "en":"tap to create your new targeted",
+        "pt_br":"toque para criar seu cronograma"
+    },
+    {        
+        "placeholder":"shows the progress of your targeted",
+        "en":"shows the progress of your targeted",
+        "pt_br":"mostra o progresso do seu cronograma"
+    },
+    {        
+        "placeholder":"tap on your targeted and you will be redirected to perform your Kards",
+        "en":"tap on your targeted and you will be redirected to perform your Kards",
+        "pt_br":"toque no seu cronograma para ser redirecionado para praticar seus Kards"
+    },
+    {        
+        "placeholder":"will show the name of the targeted, the amount of Kards it contains and its period",
+        "en":"will show the name of the targeted, the amount of Kards it contains and its period",
+        "pt_br":"mostrará o nome do cronograma, a quantidade de Kards e o período"
+    },
+    {        
+        "placeholder":"list of subjects in your targeted",
+        "en":"list of subjects in your targeted",
+        "pt_br":"lista de disciplinas do seu cronograma"
+    },
+    {        
+        "placeholder":"indicates the kards displayed in your targeted",
+        "en":"indicates the kards displayed in your targeted",
+        "pt_br":"indica que os kards visualizados serão mostrados no seu cronograma"
+    },
+    {        
+        "placeholder":"indicates the kards responded correctly",
+        "en":"indicates the kards responded correctly",
+        "pt_br":"indica que os kards respondidos corretamente serão mostrados"
+    },
+    {        
+        "placeholder":"tap and see your targeted with all Kards already viewed",
+        "en":"tap and see your targeted with all Kards already viewed",
+        "pt_br":"toque e veja o seu cronograma com todos os Kards já visualizados"
+    },
+    {        
+        "placeholder":"indicates the unseen kards in your targeted",
+        "en":"indicates the unseen kards in your targeted",
+        "pt_br":"indica que os kards não visualizados serão mostrados no seu cronograma",
+         "fr":"",
+        "de":"",
+        "es":"",
+        "pt":"",
+        "it":""
+    },
+    {        
+        "placeholder":"tap and see your targeted with all unviewed kards",
+        "en":"tap and see your targeted with all unviewed kards",
+        "pt_br":"toque e veja o seu cronograma com todos os Kards não visualizados"
+    },
+    {        
+        "placeholder":"indicates correctly answered kards",
+        "en":"indicates correctly answered kards",
+        "pt_br":"indica que os kards respondidos corretamente serão mostrados",
+         "fr":"",
+        "de":"",
+        "es":"",
+        "pt":"",
+        "it":""
+    },
+    {        
+        "placeholder":"tap and see your targeted with all kards answered correctly",
+        "en":"tap and see your targeted with all kards answered correctly",
+        "pt_br":"toque e veja o seu cronograma com todos os Kards respondidos corretamente"
+    },
+    {        
+        "placeholder":"list of selected subjects",
+        "en":"list of selected subjects",
+        "pt_br":"lista das disciplinas selecionadas"
+    },
+    {        
+        "placeholder":"indicates incorrectly answered kards",
+        "en":"indicates incorrectly answered kards",
+        "pt_br":"indica que os kards respondidos erroneamente serão mostrados",
+         "fr":"",
+        "de":"",
+        "es":"",
+        "pt":"",
+        "it":""
+    },
+    {        
+        "placeholder":"blocked schedule, please wait for the week that will be unlocked to be able to be done",
+        "en":"blocked schedule, please wait for the week that will be unlocked to be able to be done",
+        "pt_br":"cronogramas bloqueados. Aguarde a semana do desbloqueio para praticar"
+    },
+    {        
+        "placeholder":"tap to perform the corresponding kards",
+        "en":"tap to perform the corresponding kards",
+        "pt_br":"toque para praticar os kards correspondentes"
+    },
+    {        
+        "placeholder":"shows the number of kards to perform",
+        "en":"shows the number of kards to perform",
+        "pt_br":"mostra a quantidade de kards para praticar"
+    },
+    {        
+        "placeholder":"unlock date for new realization of the same kards",
+        "en":"unlock date for new realization of the same kards",
+        "pt_br":"data de desbloqueio para nova realização dos mesmos kards"
+    },
+    {        
+        "placeholder":"do you want to delete your target",
+        "en":"do you want to delete your target",
+        "pt_br":"gostaria de apagar seu cronograma"
+    },
+    {        
+        "placeholder":"deselect all topics",
+        "en":"deselect all topics",
+        "pt_br":"desmarcar todos os temas"
+    },
+    {        
+        "placeholder":"select all topics",
+        "en":"select all topics",
+        "pt_br":"selecionar todos os temas"
+    },
+    {        
+        "placeholder":"unable to create your schedule due to lack of kards, please select other options",
+        "en":"unable to create your schedule due to lack of kards, please select other options",
+        "pt_br":"não é possível criar seu cronograma devido a falta de kards, por gentileza selecione outras opções"
+    },
+    {        
+        "placeholder":"last day as a Premium user, do not miss the opportunity and update your payment",
+        "en":"last day as a Premium user, do not miss the opportunity and update your payment",
+        "pt_br":"último dia como usuário Premium. Não perca a oportunidade e atualize seu pagamento"
+    },
+    {        
+        "placeholder":"my created kardlist",
+        "en":"my created kardlist",
+        "pt_br":"meus cronogramas criados"
+    },
+    {        
+        "placeholder":"create new",
+        "en":"create new",
+        "pt_br":"adicionar"
+    },
+    {        
+        "placeholder":"will show the name of the targeted, the number of Kards it contains and its period",
+        "en":"will show the name of the targeted, the number of Kards it contains and its period",
+        "pt_br":"mostrará o nome do seu cronograma, o número de Kards que contém e seu período"
+    },
+    {        
+        "placeholder":"confirm",
+        "en":"confirm",
+        "pt_br":"confirmar"
+    },
+    {        
+        "placeholder":"do you want to exit the tutorial",
+        "en":"do you want to exit the tutorial",
+        "pt_br":"deseja sair do tutorial"
+    },
+    {        
+        "placeholder":"maybe later",
+        "en":"maybe later",
+        "pt_br":"talvez depois"
+    },
+    {        
+        "placeholder":"never",
+        "en":"never",
+        "pt_br":"nunca"
+    },
+    {        
+        "placeholder":"targeted",
+        "en":"targeted",
+        "pt_br":"cronogramas"
+    },
+    {        
+        "placeholder":"my targeted create",
+        "en":"my targeted create",
+        "pt_br":"meus cronogramas criados"
+    },
+    {        
+        "placeholder":"end of tutorial, would you like to see it later",
+        "en":"end of tutorial, would you like to see it later",
+        "pt_br":"fim do tutorial, gostaria de ver a proximá vez"
+    },
+    {        
+        "placeholder":"show the number of kards to perform",
+        "en":"show the number of kards to perform",
+        "pt_br":"mostra o número de kards para praticar"
+    },
+    {        
+        "placeholder":"select Topic ",
+        "en":"select Topic",
+        "pt_br":"selecionar tópico"
+    },
+    {        
+        "placeholder":"tap and you will be directed to contact our team via whatsapp",
+        "en":"tap and you will be directed to contact our team via whatsapp",
+        "pt_br":"toque para ser direcionado e contatar nossa equipe, através do Whatsapp"
+    },
+    {        
+        "placeholder":"select topic",
+        "en":"select topic",
+        "pt_br":"selecionar tópico"
+    },
+    {          
+        "placeholder":"discipline",
+        "en":"discipline",
+        "pt_br":"disciplina"
+    },
+    {        
+        "placeholder":"exit",
+        "en":"exit",
+        "pt_br":"sair"
+    },
+    {        
+        "placeholder":"yes, and do not show me this again",
+        "en":"yes, and do not show me this again",
+        "pt_br":"sim, e não mostrar novamente"
+    },
+    {        
+        "placeholder":"you can view your cards by accessing your week or random screens",
+        "en":"you can view your cards by accessing your week or random screens",
+        "pt_br":"você pode visualizar seus kards acessando nas telas das suas semanas ou aleatórios"
+    },
+    {        
+        "placeholder":"to access this feature upgrade to the Premium version",
+        "en":"to access this feature upgrade to the Premium version",
+        "pt_br":"para acessar esse recurso faça Upgrade para a versão Premium"
+    },
+    {        
+        "placeholder":"to access this feature upgrade to the",
+        "en":"to access this feature upgrade to the",
+        "pt_br":"para acessar esse recurso faça Upgrade para a"
+    },
+    {        
+        "placeholder":"congratulations! We activated your free trial subscription. You now have access to all funcionalities and content for the next 3 days, free of charge",
+        "en":"congratulations! We activated your free trial subscription. You now have access to all funcionalities and content for the next 3 days, free of charge",
+        "pt_br":"parabéns! Ativamos sua assinatura de avaliação gratuita. Agora você tem acesso a todas as funcionalidades e conteúdos pelos próximos 3 dias, gratuitamente"
+    },
+    {        
+        "placeholder":"your trial is expiring today",
+        "en":"your trial is expiring today",
+        "pt_br":"sua avaliação expira hoje"
+    },
+    {        
+        "placeholder":"your free trial subscription will expire today. You can get another 7 days free by subscribing to any plan",
+        "en":"your free trial subscription will expire today. You can get another 7 days free by subscribing to any plan",
+        "pt_br":"sua assinatura de avaliação gratuita expirará hoje. Você pode obter mais 7 dias gratuitos assinando qualquer plano"
+    },
+    {        
+        "placeholder":"click here to choose a plan",
+        "en":"click here to choose a plan",
+        "pt_br":"toque aqui para escolher um plano"
+    },
+    {        
+        "placeholder":"congratulations",
+        "en":"congratulations",
+        "pt_br":"parabéns"
+    },
+    {        
+        "placeholder":"locked until",
+        "en":"locked until",
+        "pt_br":"bloqueado até"
+    },
+    {        
+        "placeholder":"locked until",
+        "en":"locked until",
+        "pt_br":"bloqueado até"
+    },
+    {        
+         "placeholder":"my targeted created",
+         "en":"my own kard lists",
+         "pt_br":"cronogramas pessoais"
+    },
+    {        
+         "placeholder":"theme name",
+         "en":"theme name",
+         "pt_br":"nome do tema"
+    },
+    {        
+         "placeholder":"see your question, tap the image to see the answer ",
+         "en":"see your question, tap the image to see the answer ",
+         "pt_br":"veja sua pergunta, toque a imagem para ver a resposta"
+    },
+    {        
+         "placeholder":"tap to go back to previous kard",
+         "en":"tap to go back to previous kard",
+         "pt_br":"toque para voltar ao kard anterior"
+    },
+    {        
+         "placeholder":"tap to go next kard",
+         "en":"tap to go next kard",
+         "pt_br":"toque para ir ao próximo kard"
+    },
+    {        
+         "placeholder":"tap if you know the answer",
+         "en":"tap if you know the answer",
+         "pt_br":"toque se souber a resposta"
+    },
+    {        
+         "placeholder":"tap if you dont know the answer",
+         "en":"tap if you dont know the answer",
+         "pt_br":"toque se não souber a resposta"
+    },
+    {        
+         "placeholder":"will show the seconds or minutes used to make the kard",
+         "en":"will show the seconds or minutes used to make the kard",
+         "pt_br":"mostrará os segundos ou minutos utilizados para a realização do kard"
+    },  
+    {        
+        "placeholder":"may I help you",
+        "en":"may I help you",
+        "pt_br":"posso ajudar"
+    },
+    {        
+        "placeholder":"kards",
+        "en":"kards",
+        "pt_br":"kards"
+    },
+    {        
+        "placeholder":"period",
+        "en":"period",
+        "pt_br":"período"
+    },
+    {        
+        "placeholder":"create kard",
+        "en":"create kard",
+        "pt_br":"adicionar kard"
+    },
+    {        
+        "placeholder":"there is much more on the web",
+        "en":"there is much more on the web",
+        "pt_br":"tem muito mais na plataforma web"
+    },
+    {        
+        "placeholder":"detailed statistics",
+        "en":"detailed statistics",
+        "pt_br":"estatísticas detalhadas"
+    },
+    {        
+        "placeholder":"over 2000 ENEM questions and answers",
+        "en":"over 2000 ENEM questions and answers",
+        "pt_br":"mais de 2000 perguntas e respostas do ENEM"
+    },
+    {        
+        "placeholder":"comments and sharing functionalities",
+        "en":"comments and sharing functionalities",
+        "pt_br":"comentários e funcionalidades de compartilhamento"
+    },
+    {        
+             "placeholder":"notification showing user status",
+             "en":"notification showing user status",
+             "pt_br":"notificação que mostra o status do usuário"
+          },
+    {        
+             "placeholder":"tap to put a profile picture",
+             "en":"tap to put a profile picture",
+             "pt_br":"toque para colocar uma foto de perfil"
+          },
+    {        
+             "placeholder":"will show the username, tap to edit",
+             "en":"will show the username, tap to edit",
+             "pt_br":"mostrará o nome do usuário, toque para editar"
+          },
+    {        
+             "placeholder":"will show the kards that have been carried out according to the total number of kards available",
+             "en":"will show the kards that have been carried out according to the total number of kards available",
+             "pt_br":"mostrara os kards que foram realizados de acordo com a quantia total de kards disponíveis"
+          },
+    {        
+             "placeholder":"shows the percentage of correctly answered kards",
+             "en":"shows the percentage of correctly answered kards",
+             "pt_br":"mostra a porcentagem dos kards respondidos corretamente"
+          },
+    {        
+             "placeholder":"shows the time used to make the kards",
+             "en":"shows the time used to make the kards",
+             "pt_br":"mostra o tempo utilizado para realizar os kards"
+          },
+    {        
+             "placeholder":"tap to be directed to the weeks you want to do",
+             "en":"tap to be directed to the weeks you want to do",
+             "pt_br":"toque para ser direcionado as semanas que deseja realizar"
+          },
+    {        
+             "placeholder":"tap to filter your kards and perform randomly",
+             "en":"tap to filter your kards and perform randomly",
+             "pt_br":"toque para filtrar seus kards e realizar de forma aleatória"
+          },
+    {        
+             "placeholder":"tap and it will show your targeted",
+             "en":"tap and it will show your targeted",
+             "pt_br":"toque e mostrará seus cronogramas"
+          },
+    {        
+             "placeholder":"tap and it will show your memokards",
+             "en":"tap and it will show your memokards",
+             "pt_br":"toque e mostrará seus memokards"
+          },
+    {        
+             "placeholder":"tap and you will be redirected to make a new kard",
+             "en":"tap and you will be redirected to make a new kard",
+             "pt_br":"toque e será redirecionado para realizar um novo kard"
+          },
+    {        
+             "placeholder":"tap and you will be redirected to scan the blkardsWeb QR code and to log in to the web part",
+             "en":"tap and you will be redirected to scan the blkardsWeb QR code and to log in to the web part",
+             "pt_br":"toque y será redirecionado para escanear o QR code do blkardsWeb para logar na parte web"
+          },
+    {        
+             "placeholder":"tap and you will be redirected to your settings",
+             "en":"tap and you will be redirected to your settings",
+             "pt_br":"toque y sera redirecionado para suas configurações"
+          }, 
+    {        
+             "placeholder":"tap and you will be redirected to customer support",
+             "en":"tap and you will be redirected to customer support",
+             "pt_br":"toque y sera redirecionado para o suporte ao cliente"
+          },
+    {        
+             "placeholder":"tap if you dont know the answer",
+             "en":"tap if you dont know the answer",
+             "pt_br":"toque se não souber a resposta"
+          },
+{        
+             "placeholder":"tap switch between question and answer",
+             "en":"tap switch between question and answer",
+             "pt_br":"toque para alternar entre pergunta e resposta e para parar ou reativar a contagem"
+          },
+          {        
+            "placeholder":"successfully saved",
+            "en":"successfully saved",
+            "pt_br":"salvo com sucesso"
+          },
+          {        
+            "placeholder":"your kard has been saved successfully",
+            "en":"your kard has been saved successfully",
+            "pt_br":"o seu kard foi salvo com sucesso"
+          },
+          {        
+            "placeholder":"please note that the kard is being generated and may take up to 30 seconds to appear",
+            "en":"please note that the kard is being generated and may take up to 30 seconds to appear",
+            "pt_br":"o seu kard pode demorar até 30 segundos para aparecer"
+          },
+          {        
+            "placeholder":"click here to review the advantages of your subscription",
+            "en":"click here to review the advantages of your subscription",
+            "pt_br":"toque aqui e conheça as vantagens da sua assinatura"
+          },
+          {        
+            "placeholder":"click here to discover the advantages of a subscription",
+            "en":"click here to discover the advantages of a subscription",
+            "pt_br":"toque aqui e conheça as vantagens da assinatura"
+          },
+          {        
+            "placeholder":"bye",
+            "en":"bye",
+            "pt_br":"tchau"
+          }
+          ,
+          {        
+            "placeholder":"no, I will continue look around",
+            "en":"no, I will continue look around",
+            "pt_br":"não, vou dar uma olhada"
+          }
+          ,
+          {
+            "placeholder":"matching given parameters",
+            "en":"matching given parameters",
+            "pt_br":"correspondente aos critérios informados"
+          },
+          {
+            "placeholder":"which disciplines",
+            "en":"which disciplines",
+            "pt_br":"quais disciplinas"
+          },
+          {
+            "placeholder":"rename",
+            "en":"rename",
+            "pt_br":"renomear"
+          },
+          {
+            "placeholder":"personal list",
+            "en":"personal list",
+            "pt_br":"lista pessoal"
+          },
+          {
+            "placeholder":"call us on whatsapp",
+            "en":"call us on WhatsApp",
+            "pt_br":"nos chame no WhatsApp"
+          },
+          {
+            "placeholder":"version",
+            "en":"version",
+            "pt_br":"versão"
+          },
+          {
+            "placeholder":"premium",
+            "en":"premium",
+            "pt_br":"premium"
+          },
+          {
+            "placeholder":"and get access to",
+            "en":"and get access to",
+            "pt_br":"e tenha acesso a"
+          },
+          {
+            "placeholder":"over 1600",
+            "en":"over 1600",
+            "pt_br":"mais de 1600"
+          },
+          {
+            "placeholder":"flashcards ready to use",
+            "en":"flashcards ready to user",
+            "pt_br":"flashcards prontos"
+          },
+          {
+            "placeholder":"over 2000 ENEM questions with answers related to the kards",
+            "en":"over 2000 enem questions with answers related to the kards",
+            "pt_br":"mais de 2000 questões ENEM relacionadas aos kards"
+          },
+          {
+            "placeholder":"personalized kardlists",
+            "en":"personalized kardlists",
+            "pt_br":"cronograms de revisão personalizados"
+          },
+          {
+            "placeholder":"MemoKard functionality",
+            "en":"MemoKard functionality",
+            "pt_br":"recurso MemoKard"
+          },
+          {
+            "placeholder":"planned revisions",
+            "en":"planned revisions",
+            "pt_br":"revisões programadas"
+          },
+          {
+            "placeholder":"progress follow-up",
+            "en":"progress follow-up",
+            "pt_br":"acompanhamento de desempenho"
+          },
+          {
+            "placeholder":"creation of own flashcards",
+            "en":"creation of own flashcards",
+            "pt_br":"criação de Flashcards"
+          },
+          {
+            "placeholder":"deleting your account will remove all your settings, progress and data created via the app and / or web platform, without any possibilty to recover this information",
+            "en":"deleting your account will remove all your settings, progress and data created via the app and / or web platform, without any possibilty to recover this information",
+            "pt_br":"ao excluir sua conta, todas as suas configurações, progresso e dados criados através do aplicativo e/ou plataforma web serão eliminados, sem qualquer possibilidade de recuperação dessas informações"
+          },
+          {
+            "placeholder":"by clicking 'I confirm' below, you confirm that",
+            "en":"by clicking 'I confirm' below, you confirm that",
+            "pt_br":"licando em 'Eu confirmo', você está ciente que"
+          },
+          {
+            "placeholder":"a) your account will be definitely deleted without possibilty of recover",
+            "en":"a) your account will be definitely deleted without possibilty of recover",
+            "pt_br":"a) sua conta será deletada definitivamente, sem possibilidade de recuperação"
+          },
+          {
+            "placeholder":"b) the deletion of your account will not suspend or cancel any active subscription you may have. In such a case, you will have to cancel your active subscription via the corresponding app store",
+            "en":"b) the deletion of your account will not suspend or cancel any active subscription you may have. In such a case, you will have to cancel your active subscription via the corresponding app store",
+            "pt_br":"b) a exclusão da sua conta não suspenderá ou cancelará qualquer assinatura ativa que você possa ter. Nesse caso, você terá que cancelar sua assinatura através da loja de aplicativos correspondente"
+          },
+          {
+            "placeholder":"i confirm",
+            "en":"i confirm",
+            "pt_br":"eu confirmo"
+          },
+          {
+            "placeholder":"delete account definitively",
+            "en":"delete account definitively",
+            "pt_br":"deletar conta definitivamente"
+          },
+         {
+            "placeholder":"to continue you need to confirm please",
+            "en":"to continue you need to confirm please",
+            "pt_br":"para continuar precisa confirmar"
+        } ,
+        {
+            "placeholder":"new: Non-nervewing plan:",
+            "en":"new: Non-nervewing plan:",
+            "pt_br":"novo: Assinatura sem renovação"
+          } ,
+        {           
+            "placeholder":"important reminder!",
+            "en":"important reminder!",
+            "pt_br":"lembrete importante"
+          },
+ {           
+            "placeholder":"don't forget to log into the Blkards and complete your activities. Your progress is waiting for you!",
+            "en":"don't forget to log into the Blkards and complete your activities. Your progress is waiting for you!",
+            "pt_br":"não se esqueça de entrar no Blkards e completar suas atividades. Seu progresso está esperando por você!"
+          },
+ {           
+            "placeholder":"hello!. Welcome to Blkards, we are thrilled to have you here and look forward to helping you achieve your academic goals",
+            "en":"hello!. Welcome to Blkards, we are thrilled to have you here and look forward to helping you achieve your academic goals",
+            "pt_br":"olá!. Bem-vindo ao Blkards, estamos entusiasmados em tê-lo aqui e ansiosos para ajudá-lo a alcançar seus objetivos acadêmicos"
+          },
+ {           
+            "placeholder":"enter with email",
+            "en":"enter with email",
+            "pt_br":"acesse com seu e-mail"
+          },
+ {           
+            "placeholder":"enter with Google",
+            "en":"enter with Google", 
+            "pt_br":"acesse com o Google"
+          },
+ {           
+            "placeholder":"successfully logged in",
+            "en":"successfully logged in",
+            "pt_br":"logado com sucesso"
+          },
+ {           
+            "placeholder":"account exists with different credential",
+            "en":"account exists with different credential",
+            "pt_br":"conta existente com credencial diferente"
+          },
+ {           
+            "placeholder":"invalid credential",
+            "en":"invalid credential",
+            "pt_br":"credencial invalida"
+          },
+ {           
+            "placeholder":"google account not found please try to link with email",
+            "en":"google account not found please try to link with email",
+            "pt_br":"conta do google não encontrada, tente vincular com e-mail"
+          },
+ {           
+            "placeholder":"we're sorry, an authentication error has occurred. Please try logging in using a different authentication method. Make sure to select a valid login option.",
+            "en":"we're sorry, an authentication error has occurred. Please try logging in using a different authentication method. Make sure to select a valid login option.",
+            "pt_br":"desculpe, ocorreu um erro de autenticação. Tente fazer login usando um método de autenticação diferente. Certifique-se de selecionar uma opção de login válida."
+          },
+ {           
+            "placeholder":"a verification code was sent to the email:",
+            "en":"a verification code was sent to the email:",
+            "pt_br":"um código de verificação foi enviado para o e-mail:"
+          },
+ {           
+            "placeholder":"please tap here to edit your email if you misspelled it",
+            "en":"please tap here to edit your email if you misspelled it",
+            "pt_br":"por favor, toque aqui para editar seu e-mail se você digitou errado"
+          },
+ {           
+            "placeholder":"pin code invalid, please enter a pin code valid",
+            "en":"pin code invalid, please enter a pin code valid",
+            "pt_br":"código PIN inválido, digite um código PIN válido"
+          },
+
+ {           
+            "placeholder":"didn't receive the email",
+            "en":"didn't receive the email",
+            "pt_br":"não recebi o e-mail"
+          },
+ {           
+            "placeholder":"check your spam folder",
+            "en":"check your spam folder",
+            "pt_br":"verifique sua pasta de spam"
+          },
+ {           
+            "placeholder":"please enter the confirmation code received by email",
+            "en":"please enter the confirmation code received by email",
+            "pt_br":"digite o código de confirmação recebido por e-mail"
+          },
+ {           
+            "placeholder":"trainning",
+            "en":"trainning",
+            "pt_br":"treinando"
+          },
+ {           
+            "placeholder":"my achievements",
+            "en":"my achievements",
+            "pt_br":"minhas conquistas"
+          },
+          {           
+            "placeholder":"my achievement",
+            "en":"my achievement",
+            "pt_br":"minha conquista"
+          },
+ {           
+    
+            "placeholder":"profile",
+            "en":"profile",
+            "pt_br":"perfil"
+          },
+ {           
+            "placeholder":"create",
+            "en":"create",
+            "pt_br":"criar"
+          },
+ {           
+            "placeholder":"home",
+            "en":"home",
+            "pt_br":"início"
+          },
+ {           
+            "placeholder":"share app",
+            "en":"share app",
+            "pt_br":"compartilhar app"
+          },
+ {           
+            "placeholder":"follow your progress daily and reach your goals",
+            "en":"follow your progress daily and reach your goals",
+            "pt_br":"acompanhe o seu progresso diariamente e alcance seus objetivos."
+          },
+ {           
+            "placeholder":"my progress general",
+            "en":"my progress general",
+            "pt_br":"meu progresso geral"
+          },
+ {           
+            "placeholder":"create my achievement",
+            "en":"create my achievement",
+            "pt_br":"criar minha conquistas"
+          },
+ {           
+            "placeholder":"name",
+            "en":"name",
+            "pt_br":"nome"
+          },
+ {           
+            "placeholder":"achievements",
+            "en":"achievements",
+            "pt_br":"conquistas"
+          },
+ {           
+            "placeholder":"list of achievements is empty",
+            "en":"list of achievements is empty",
+            "pt_br":"lista de conquistas esta vacia"
+          },
+ {           
+            "placeholder":"personal achievement list is empty. You can create one by clicking the button below",
+            "en":"personal achievement list is empty. You can create one by clicking the button below",
+            "pt_br":"sua lista pessoal de conquistas esta vacia, Pode criar presionando no botão embaixo"
+          },
+ {           
+            "placeholder":"create personal achievement",
+            "en":"create personal achievement",
+            "pt_br":"criar minha conquista"
+          },
+ {           
+            "placeholder":"do want to delete your target",
+            "en":"do want to delete your target",
+            "pt_br":"deseja deletar sua conquista"
+          },
+ {           
+            "placeholder":"photo identifier invalid",
+            "en":"photo identifier invalid",
+            "pt_br":""
+          },
+ {           
+            "placeholder":"nick name",
+            "en":"nick name",
+            "pt_br":""
+          },
+ {           
+            "placeholder":"please insert a valid value",
+            "en":"please insert a valid value",
+            "pt_br":""
+          },
+ {           
+            "placeholder":"restart",
+            "en":"restart",
+            "pt_br":""
+          },
+ {           
+            "placeholder":"something went wrong please restart the app",
+            "en":"something went wrong please restart the app",
+            "pt_br":""
+          },
+ {           
+            "placeholder":"time of study",
+            "en":"time of study",
+            "pt_br":""
+          },
+ {           
+            "placeholder":"time available to study",
+            "en":"time available to study",
+            "pt_br":""
+          },
+ {           
+            "placeholder":"what is the average time to answer each kards",
+            "en":"what is the average time to answer each kards",
+            "pt_br":""
+          },
+ {           
+            "placeholder":"average response time",
+            "en":"average response time",
+            "pt_br":""
+          },
+ {           
+            "placeholder":"define the time that seems best to you to be reminded to accomplish the daily goals",
+            "en":"define the time that seems best to you to be reminded to accomplish the daily goals",
+            "pt_br":""
+          },
+ {           
+            "placeholder":"define the schedule",
+            "en":"define the schedule",
+            "pt_br":""
+          },
+ {           
+            "placeholder":"search",
+            "en":"search",
+            "pt_br":""
+          },
+ {           
+            "placeholder":"app evaluation",
+            "en":"app evaluation",
+            "pt_br":""
+          },
+ {           
+            "placeholder":"error when redirecting",
+            "en":"error when redirecting",
+            "pt_br":""
+          },
+ {           
+            "placeholder":"",
+            "en":"",
+            "pt_br":""
+          },
+ {           
+            "placeholder":"",
+            "en":"",
+            "pt_br":""
+          },
+ {           
+            "placeholder":"",
+            "en":"",
+            "pt_br":""
+          }
+
+
+
+ 
+]

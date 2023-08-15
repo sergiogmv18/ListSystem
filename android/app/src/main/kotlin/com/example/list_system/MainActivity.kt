@@ -1,4 +1,4 @@
-package com.example.list_system
+package com.list.system
 
 import io.flutter.embedding.android.FlutterActivity
 
