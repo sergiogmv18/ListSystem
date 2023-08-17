@@ -94,7 +94,7 @@ class SplashScreenState extends State<SplashScreen> {
  /*
   * initialize dependencies
   * @author  SGV
-  * @version 1.0 - 20210506 - initial release
+  * @version 1.0 - 20230819 - initial release
   * @return  <bool> - know what was done successfully
   */
   Future<bool> initializeDependencies() async {
