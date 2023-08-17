@@ -44,14 +44,6 @@ class TaskAppController{
           );
         }
       } catch (e) {
-        if (e is SocketException) {
-        FunctionsClass.printDebug(e.port);
-        } else if (e is TimeoutException) {
-        FunctionsClass.printDebug(e);
-        } else {
-          FunctionsClass.printDebug(e);
-        }
-    
         FunctionsClass.printDebug(e);
         taskAppWk.setIsNecessarySaveInServer(true);
       }
